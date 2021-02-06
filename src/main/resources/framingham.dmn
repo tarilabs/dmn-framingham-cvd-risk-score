@@ -1039,54 +1039,650 @@
       </dmn:input>
       <dmn:output id="_39237AED-4482-4A36-BB81-4924B6CA8E22"/>
       <dmn:annotation name="annotation-1"/>
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>&lt;=-2</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"&lt;1 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule>
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(-2..-1]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.0 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(-1..0]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.2 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(0..1]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.5 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(1..2]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.7 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(2..3]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"2.0 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(3..4]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"2.4 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(4..5]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"2.8 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(5..6]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"3.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(6..7]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"3.9 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(7..8]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"4.5 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(8..9]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"5.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(9..10]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"6.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(10..11]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"7.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(11..12]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"8.6 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(12..13]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"10.0 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(13..14]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"11.7 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(14..15]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"13.7 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(15..16]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"15.9 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(16..17]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"18.5 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(17..18]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"21.5 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(18..19]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"24.8 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(19..20]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"28.5 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Women"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>>20</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"&lt;30 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>&lt;=-3</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"&lt;1 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule>
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(-3..-2]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.1 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(-2..-1]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.4 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(-1..0]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.6 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(0..1]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"1.9 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(1..2]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"2.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(2..3]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"2.8 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(3..4]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"3.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(4..5]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"3.9 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(5..6]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"4.7 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(6..7]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"5.6 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(7..8]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"6.7 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(8..9]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"7.9 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(9..10]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"9.4 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(10..11]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"11.2 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(11..12]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"13.2 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(12..13]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"15.6 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(13..14]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"18.4 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(14..15]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"21.6 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(15..16]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"25.3 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>(16..17]</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"29.4 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-      <dmn:rule><dmn:inputEntry><dmn:text>"Men"</dmn:text></dmn:inputEntry><dmn:inputEntry><dmn:text>>17</dmn:text></dmn:inputEntry><dmn:outputEntry><dmn:text>"&gt;30 %"</dmn:text></dmn:outputEntry><dmn:annotationEntry><dmn:text/></dmn:annotationEntry></dmn:rule> 
-     
+      <dmn:rule id="_E532B466-9D7B-40C3-8200-15D44C14AF78">
+        <dmn:inputEntry id="_A33F1852-4C72-448F-A8F8-6B27A6202006">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3EC576CA-37D2-4AE8-AC52-65C3E7CE672E">
+          <dmn:text>&lt;=-2</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0C3D16BC-77AC-4124-82C0-A8F21F446B92">
+          <dmn:text>"&lt;1 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_24CB27FD-471C-40F2-99A3-2C23AC08D956">
+        <dmn:inputEntry id="_B795CBF6-FEA7-4CCB-AB1F-86521BB0B7C9">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_E4FD5E0D-FC78-4713-A5ED-A9D3DF5B54A2">
+          <dmn:text>(-2..-1]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_B3DEDEA6-73DD-42D9-AD34-118EDF82626D">
+          <dmn:text>"1.0 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_BE3794E6-017D-43FE-ABAE-0173432BAA26">
+        <dmn:inputEntry id="_5DB88862-1E7F-4A30-AC52-D7701740771C">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_A7977577-31F1-4DF7-97B5-DF05AC30D2AB">
+          <dmn:text>(-1..0]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_30E0F80B-B07C-47D6-8C0C-1BDCC66888F5">
+          <dmn:text>"1.2 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_A55EED7E-B878-4F42-8331-90A9CC2F934A">
+        <dmn:inputEntry id="_D6C060A0-98D3-498D-860A-43DA21A90A25">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5EDAA4FB-AE60-4F6A-9CC3-677CBB218415">
+          <dmn:text>(0..1]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4D2F640B-227F-4C89-BD1D-1ED999308131">
+          <dmn:text>"1.5 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_F485E03F-1536-4FB2-96FE-3474FB4693F9">
+        <dmn:inputEntry id="_C961CAA9-C1B3-4E11-8BD5-533FC377CCAC">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_AC90D06C-5639-4AF3-B8C8-E6C850B08A4B">
+          <dmn:text>(1..2]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9A637450-430C-4E00-AB3E-948DCB22CE55">
+          <dmn:text>"1.7 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_06E2C854-FF1C-4DA1-86EA-4B20AC0312CB">
+        <dmn:inputEntry id="_67BB94C0-3058-4BEB-B6D4-66F30BF21070">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6CDB1B25-9FA2-44EE-BE02-61310DBD7DDD">
+          <dmn:text>(2..3]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_21920F26-0D4B-4986-AAFD-5061D51B35C9">
+          <dmn:text>"2.0 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_C40930FC-507F-4245-9D36-4132FFF3BC14">
+        <dmn:inputEntry id="_7EA5C0BF-85EA-45F7-BAD5-42A0B392AFD9">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_C07E07F0-C2C5-4E32-B2BB-E6CE657F474C">
+          <dmn:text>(3..4]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_B7AB141C-17D8-40E3-9519-17E27C9DF376">
+          <dmn:text>"2.4 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_ABAC0150-4E2A-43FE-A7F0-64DA4DBC9891">
+        <dmn:inputEntry id="_7553C11E-A1A2-41DD-A627-A0401D33CA09">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F32BE81E-F14E-43DA-B130-D5ED780363F8">
+          <dmn:text>(4..5]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_E13E0297-2573-40FD-B1CD-9E4304C4FA35">
+          <dmn:text>"2.8 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4A948929-7F3F-445F-9376-43D19344FFF3">
+        <dmn:inputEntry id="_E75C56B5-CE8A-4FA3-8CE0-2759FBEBB037">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_A9A73741-6EC1-4956-B82D-3DDE586F05B1">
+          <dmn:text>(5..6]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_A2E8228A-32A1-484C-8F7D-3B5FF5DA739D">
+          <dmn:text>"3.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3CA50F19-F925-4EB4-AAD2-34AF20655349">
+        <dmn:inputEntry id="_26CE3CEB-0710-4499-9E41-D62646A30ECC">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_87F5BEC4-EC03-41A7-9E49-903FF8E6EB80">
+          <dmn:text>(6..7]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8D5E09AD-247D-44FF-AA79-F6A9DE020A59">
+          <dmn:text>"3.9 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_66B31D4D-DCEA-4FEA-B4E1-6F52C8FB5DCD">
+        <dmn:inputEntry id="_A2831DC2-4C83-4AD6-8756-E30CABCF17A2">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_372BF18B-45FA-48CC-A7A1-D54A09F1CC83">
+          <dmn:text>(7..8]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_F18694EC-BA68-4BBC-B97D-1BBE1C23088E">
+          <dmn:text>"4.5 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5C66D70E-68B2-493C-A11A-E4D5F9A53E4D">
+        <dmn:inputEntry id="_FE844E8E-5C3A-4E88-A3A3-CE55DF37449A">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F8FAE28E-360B-4174-AD10-758DE38807C8">
+          <dmn:text>(8..9]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_630E8AAC-01D1-4D99-BB2D-FC1C48665BC4">
+          <dmn:text>"5.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_82810D0E-FC97-4055-A490-4B201129BB74">
+        <dmn:inputEntry id="_4BBFA617-2051-46BB-8A98-5CE568052D9F">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_FCFEF5CC-FB26-4593-958B-9B31FEC18272">
+          <dmn:text>(9..10]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4D5783BC-DE88-4DF9-8195-34FF79150231">
+          <dmn:text>"6.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8956D6EA-3AAB-47DA-B252-85A91C18D6A8">
+        <dmn:inputEntry id="_C2FED04F-1F54-43F9-A8C6-93BF0205CBE7">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_EB255F9B-032B-4160-BEF2-48FCCEAEC9DC">
+          <dmn:text>(10..11]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_57EEE5D8-3DA8-4977-90AC-4609A69E464B">
+          <dmn:text>"7.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_88AFEFC3-71BA-45A9-8155-75071DB5ED04">
+        <dmn:inputEntry id="_D5E8E5E5-8EA9-48BC-BC5D-0E7BDED582ED">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_76C18BA4-91FC-4EC8-A1BE-8DFFDE8687AD">
+          <dmn:text>(11..12]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_FA6FAE64-8EF0-4E78-8FFA-C334F57C19DB">
+          <dmn:text>"8.6 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_0071539C-520D-420E-8ED8-D56184C11CD9">
+        <dmn:inputEntry id="_8AC4CCBC-AF88-4174-9BF8-9087DB373364">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_BBA523C5-B351-439C-9CC6-4EEBD96F3BE3">
+          <dmn:text>(12..13]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8F47CC0F-F38D-4975-A8E3-89B1E481C82B">
+          <dmn:text>"10.0 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_C56EA67A-2D93-4937-8ECD-578812C2A0A9">
+        <dmn:inputEntry id="_9C02E088-DB91-416F-BEC8-8E6B57CBBB50">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_30195A97-0B29-446D-9B0D-5FE6BB8F27EE">
+          <dmn:text>(13..14]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_BDC446D0-86D5-45FF-B9CB-F20CBDF444B2">
+          <dmn:text>"11.7 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_EF0A3232-5786-4C25-988E-595B6B88F7E0">
+        <dmn:inputEntry id="_B219D8D3-9ABE-4594-A680-DBE2F50454C9">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_BEB6C1FB-A993-449F-AE22-B7EFDC77D540">
+          <dmn:text>(14..15]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2937E5B6-A0FB-4007-8A7D-CB0BE31FAB21">
+          <dmn:text>"13.7 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_A1279E6E-12A3-4772-A724-C270F96FC405">
+        <dmn:inputEntry id="_C1832B62-53A9-4ACC-83CC-409F155FEF17">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_C18926B2-4C31-4BD7-84FE-01FFA7D91DB7">
+          <dmn:text>(15..16]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8E31726A-B93D-486C-AA30-1831D7D7B41F">
+          <dmn:text>"15.9 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_592C8E05-FB91-49B7-8CA6-3762A34F8D1E">
+        <dmn:inputEntry id="_4AB5F4FC-59A3-4EB4-9CB8-A5E07E7E374D">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_45A47134-4D1A-44A7-8A82-33AF281341B1">
+          <dmn:text>(16..17]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6EDFAA0D-2B40-402F-BA53-6CC83979AB1E">
+          <dmn:text>"18.5 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_97A2D397-1730-434F-BDA2-8F7D4F907382">
+        <dmn:inputEntry id="_39B5E3B9-9784-4D90-BD5B-23B634914F0E">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_AA42D4F8-0A42-48C0-BA01-80A8563EB6E4">
+          <dmn:text>(17..18]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_83338800-C65E-455A-AE59-FE0FDF917865">
+          <dmn:text>"21.5 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_F0DC4667-89CA-4BDF-8DF1-02ABE66D7B94">
+        <dmn:inputEntry id="_E80B8905-88C1-4C07-AEBE-29BC97A51870">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1FED5B12-00C6-4B8C-A5C7-F447134E883D">
+          <dmn:text>(18..19]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_175CCA8D-5210-4E24-B939-C7070614F68A">
+          <dmn:text>"24.8 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_50E2F468-28D0-40E1-931F-71350CACFF9B">
+        <dmn:inputEntry id="_F233038A-61A1-4BCE-BDAD-67FB41234D05">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_CB97CC4E-68E9-47E8-95C6-B7B401267B10">
+          <dmn:text>(19..20]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3F01F44D-12A9-4EFD-8248-2DF1F04DE801">
+          <dmn:text>"28.5 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2587E38D-4128-47DE-996A-B54B6797AC09">
+        <dmn:inputEntry id="_E2ECD011-7941-4AA1-91AF-1D796CBED2D9">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_B61D7F2E-55B1-427B-91A8-7821BECB215E">
+          <dmn:text>&gt;20</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3C8D0F09-C647-45BA-B4FD-B986E223397F">
+          <dmn:text>"&lt;30 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_21A95146-D429-4C9C-A978-6801CFC0CBF4">
+        <dmn:inputEntry id="_D04EC588-4683-4274-A4C2-9316C0CE38FE">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2DB2A2BA-B2DF-450A-A242-F6099F2BA6B1">
+          <dmn:text>&lt;=-3</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_E03352D2-9A3C-4667-A360-43E51781919E">
+          <dmn:text>"&lt;1 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4024AFAF-1287-4803-9D21-8E996BCEF33F">
+        <dmn:inputEntry id="_4818C0D4-4029-4DAE-BBA1-1B8CE9111897">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_76A2CB30-94F3-462F-AC94-53BF6639351D">
+          <dmn:text>(-3..-2]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_879683F0-6330-408E-9028-FBB4FE7C3B89">
+          <dmn:text>"1.1 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_244ADA83-6E11-4C7F-A1DD-EC526F03C90A">
+        <dmn:inputEntry id="_E0FB811F-3C02-40AD-8003-21453AD2661F">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_B52D278E-ECC7-4587-9907-F5044572BA38">
+          <dmn:text>(-2..-1]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8E9DCC8A-64E4-4BD2-ADC9-8CDFD8B0D948">
+          <dmn:text>"1.4 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_BF6B60A8-CDFA-49B9-ABFB-E5BEF20A99F1">
+        <dmn:inputEntry id="_3B4DF2FF-98DE-4886-B1F0-D895B9A45709">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_40DCEDD4-02E9-4A88-A03C-963AC8216A7F">
+          <dmn:text>(-1..0]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_958D9A76-92B9-4141-B7F5-5088661958E6">
+          <dmn:text>"1.6 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_C6F086BA-BB77-4E6C-9A0E-662D67489C92">
+        <dmn:inputEntry id="_C85F1193-F504-4D47-B651-A915385AB708">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_897C90A4-0488-4344-B780-94540D777C64">
+          <dmn:text>(0..1]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_636CEA23-28C1-4FD5-B372-DC243A713CC9">
+          <dmn:text>"1.9 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1F32FB69-F87D-478C-A7FC-B156B64528CC">
+        <dmn:inputEntry id="_AA935D5A-8182-4792-8D09-BF49F242F448">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_60E80734-B455-4CB3-9620-D2F19699640B">
+          <dmn:text>(1..2]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0602C0CC-9BE7-4E40-91F9-7E62CB7D3A2A">
+          <dmn:text>"2.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_21249EBC-EB7C-4E10-84D9-725FA431D09F">
+        <dmn:inputEntry id="_B70679DA-190E-4451-81BD-9A39611DA8E0">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_11F32D16-D6F6-4B85-962E-1EEEC053DECB">
+          <dmn:text>(2..3]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3D698958-814C-44AB-9B80-36DF919E32E3">
+          <dmn:text>"2.8 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7E3C0039-3E07-4D23-BE64-D7A30E60FEE2">
+        <dmn:inputEntry id="_9EC33A35-6573-47AD-AD89-D23B07CDFE6D">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_D408B78C-9EB5-4E9F-8B25-D4079EC60F80">
+          <dmn:text>(3..4]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_7E5B0F0E-67C3-431C-BA9A-C068BE8C8C52">
+          <dmn:text>"3.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_A2A88EDC-F64F-4CD7-9224-B22B79CD22FE">
+        <dmn:inputEntry id="_9265BD3A-5BB9-4981-B7EC-6E5819C5F166">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_DA50CCC2-1705-4261-ABC5-285DA9291946">
+          <dmn:text>(4..5]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9F796B61-F89B-4ABF-8608-3192109A67AE">
+          <dmn:text>"3.9 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1B11EB9F-8558-4668-97B6-11EFB568B06F">
+        <dmn:inputEntry id="_0083409F-6CCF-45DE-BDF0-C721C8EBC2B7">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7F39DEC7-B975-486A-BC5A-3D9A9864B7CB">
+          <dmn:text>(5..6]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_C3F10F72-47CF-42E4-8CB9-29254D925C18">
+          <dmn:text>"4.7 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_6CACA9AA-EA39-46E5-BD4C-5A9989CC1E48">
+        <dmn:inputEntry id="_D680C99B-1A98-4D3F-856E-35012793F5C9">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_B7FCD700-41B1-4529-8BD0-253E7C386CE9">
+          <dmn:text>(6..7]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6C37CA01-8C18-4F09-BEA1-CC9C516952EC">
+          <dmn:text>"5.6 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_FF86EB0E-D011-4DD2-965F-B0A161D47206">
+        <dmn:inputEntry id="_B2DCC6C2-6E96-43B0-8387-109F90A5BF77">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4D426FD9-495C-48A6-A831-05A2D7C59620">
+          <dmn:text>(7..8]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_267339C2-99BA-46B5-81E1-D4EC6EAF52B1">
+          <dmn:text>"6.7 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_E7214E61-26BB-438D-B185-C38CA0519088">
+        <dmn:inputEntry id="_110AF26D-279E-4726-85E8-BF20F9160482">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_82DAD3F5-3669-41D6-87D1-7BCDCCFADA0E">
+          <dmn:text>(8..9]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_50A9ECAA-65E5-433A-AA82-AD22BBA70376">
+          <dmn:text>"7.9 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_09C2213F-A6C4-428C-AF38-114DE6405390">
+        <dmn:inputEntry id="_7FA1E789-519B-4EEE-B9E2-81A8628B68FF">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7ACDD159-D90C-4D34-8524-30A0AFCE118B">
+          <dmn:text>(9..10]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_43A442C2-44CD-4F38-80E7-BA4828D87E70">
+          <dmn:text>"9.4 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_60CA06C0-758C-4ACF-B2D7-F740A4E28AA9">
+        <dmn:inputEntry id="_E9A90143-8713-41A7-9D56-C93C4B02F394">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2A260743-B8FA-4803-84A6-C6E1BDDCF473">
+          <dmn:text>(10..11]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_C13812D2-26F9-4C17-8BCE-B73658DE2AC2">
+          <dmn:text>"11.2 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8261C777-489F-4A80-8962-1F7D8464BD6B">
+        <dmn:inputEntry id="_30F7DB90-C4DB-4634-9FAD-A4D24981F419">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5845499A-E931-47FB-9768-84868F908282">
+          <dmn:text>(11..12]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_BAB4AD87-1F56-41CE-BB39-436F1FA899A9">
+          <dmn:text>"13.2 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_7E5BDA3D-41AA-4651-9F0E-D14A71FCA057">
+        <dmn:inputEntry id="_EEC38968-0E9A-46F9-9B3B-E0772C02AD00">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_62F4EB6D-7D07-45CA-A15B-5D9A19AB36F5">
+          <dmn:text>(12..13]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_50C6BAEC-E953-4014-B518-B5D5B70D9B1F">
+          <dmn:text>"15.6 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5571F6CE-F8CD-4BA9-8FA9-F3BCAFFC5454">
+        <dmn:inputEntry id="_F06B63C8-F9B7-467E-81AF-17768731345C">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3DCE1866-CF9A-459A-AC93-FC5AA4EA0418">
+          <dmn:text>(13..14]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_4D43312C-8EE5-4FDD-B2FA-EBEDE2AA6CD8">
+          <dmn:text>"18.4 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_448CB491-2283-47B7-8C59-E21C87662EE2">
+        <dmn:inputEntry id="_359EF083-C11B-4AE7-B8B6-B300ECC8FC84">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0701D9A7-6116-4EEF-9907-106776767779">
+          <dmn:text>(14..15]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_F2398706-CDD5-4F76-A1C2-716F9AF9C8AB">
+          <dmn:text>"21.6 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8C729348-6773-4D46-8488-3923D4C55DEC">
+        <dmn:inputEntry id="_91AEB21E-071E-4F9E-AEE9-C958BC62A43D">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_A5C2D51E-C478-46DF-8DD1-BA9B26C7AD92">
+          <dmn:text>(15..16]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_D1944B93-3F2F-4C6C-965F-CFE12D8E7186">
+          <dmn:text>"25.3 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_A9F2E09C-356D-4097-8979-CCBD46A33ABE">
+        <dmn:inputEntry id="_F927D4DD-A116-4B62-AFD0-DB4CAADEE6A5">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_645A9889-E38B-4E5C-BBA5-AE318010FE55">
+          <dmn:text>(16..17]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_392DED16-CD3C-4034-A797-A1D3ED579836">
+          <dmn:text>"29.4 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_01BBC9FB-41AF-4DAC-8ACC-04917A892559">
+        <dmn:inputEntry id="_65D35089-7F74-4668-8694-A6288F3C3C8E">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_6040B815-B3EE-466F-8F83-4F3CEEBFDA89">
+          <dmn:text>&gt;17</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_554D2670-8CAE-4742-AD3E-FC5B571547B3">
+          <dmn:text>"&gt;30 %"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
   <dmndi:DMNDI>
