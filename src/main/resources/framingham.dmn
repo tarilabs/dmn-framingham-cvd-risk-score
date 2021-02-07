@@ -1685,6 +1685,492 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
+  <dmn:decision id="_8DCAE40C-3502-4F15-8A9E-FFEB3BF23DAC" name="Heart age/vascular age">
+    <dmn:extensionElements/>
+    <dmn:variable id="_B1E2C0F6-5A38-48EB-908A-E5E419CFEEF0" name="Heart age/vascular age" typeRef="string"/>
+    <dmn:informationRequirement id="_358DC5E0-CDF9-4C5A-B1B0-4751E12946E2">
+      <dmn:requiredDecision href="#_F8E69676-89EE-46C5-92FF-0494643A3831"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_853B9E96-DFD0-4013-872F-A63862F4DA88">
+      <dmn:requiredInput href="#_E2B2B09C-37A7-410F-822A-011F9ED913AC"/>
+    </dmn:informationRequirement>
+    <dmn:decisionTable id="_16865D58-AD3D-46C0-8FF1-34F3DC32C43D" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_2901F99D-2C67-409A-B9BF-D9A7BC59F942">
+        <dmn:inputExpression id="_8D179018-5114-4AC2-9CD1-CC3DD7660824" typeRef="tSex">
+          <dmn:text>Sex</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_045E668A-344C-47F2-AF0E-A6DF8C81CD3F">
+        <dmn:inputExpression id="_5E596858-026A-45A2-8A8D-FE1E5F5900DE" typeRef="number">
+          <dmn:text>Framingham score</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_0E9B5355-EC6A-4FCE-B5E6-965EA9FF7D0A"/>
+      <dmn:annotation name="annotation-1"/>
+      <dmn:rule id="_E959D737-D7FE-4DA5-B49E-8091203F2323">
+        <dmn:inputEntry id="_1E1EDCBD-7221-46BA-9317-5509D81923BA">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_DC94951E-DA97-4372-AF68-99937DFBA31C">
+          <dmn:text>&lt;1</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_DA8F838D-73E5-46F1-A34C-54F9653F17ED">
+          <dmn:text>"&lt;30 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_F39B7412-F72B-48E0-A467-795F01C24636">
+        <dmn:inputEntry id="_F4E63657-5C61-41D8-981E-D9AE586958FD">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9E09E673-EB50-4F04-9548-493E82021049">
+          <dmn:text>[1..2)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_72F85825-00E7-4B66-9B1B-7679CE4AE81E">
+          <dmn:text>"31 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_5555D06E-3126-4E90-B7C8-F40E0910B18E">
+        <dmn:inputEntry id="_097E66A5-0936-494B-8C2B-24148E663CAB">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_DF4D6D9D-51E0-4127-A557-890311684AE9">
+          <dmn:text>[2..3)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_C02A4F90-9CA7-4991-BCA6-E9D325DD7327">
+          <dmn:text>"34 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2AAB7479-7D02-4BE4-BCBE-EB210DABE476">
+        <dmn:inputEntry id="_3E6BB3F1-6DD4-49E0-983F-F7DA243B068B">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7337071A-92BA-4262-AEAD-7FB37054C4C9">
+          <dmn:text>[3..4)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2615A826-81F4-40D9-86E1-0399B52DD01E">
+          <dmn:text>"36 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3354EAC5-0DE9-4187-9277-204760B7B4D7">
+        <dmn:inputEntry id="_F62A3EED-E386-4778-A618-EEE18D7AB4DE">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_C229EC69-7B89-4805-A1AE-E94547AF6860">
+          <dmn:text>[4..5)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_58FEDCD5-CB7D-4A33-A01A-04CA54A38EFC">
+          <dmn:text>"39 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_FB1015D6-D356-4759-8A82-CA0B11C647B5">
+        <dmn:inputEntry id="_9EB7D8E6-2A92-48D2-B26A-3A93B6E48736">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_EF732C7D-84F2-44B3-A13E-CFC720F7BCEB">
+          <dmn:text>[5..6)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_93768F79-10B1-4D9C-A996-E98ACB50D4A5">
+          <dmn:text>"42 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_79B13509-449B-4F5B-AD97-E01DE637D6CC">
+        <dmn:inputEntry id="_2407864D-31AC-4310-8676-F13EBEE32DB3">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_AEB2A15E-4B59-4034-9E64-3BCEB5DB1A78">
+          <dmn:text>[6..7)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_06D0601B-998A-4CE6-AAFE-8C3C89313EA2">
+          <dmn:text>"45 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_10E4B715-5CD0-4128-A7B1-339964A5E01A">
+        <dmn:inputEntry id="_8299E794-CE7E-4310-98FE-84180F4D3F17">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_718A7395-B388-414A-84A2-8363B0824F12">
+          <dmn:text>[7..8)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3EEB37CC-5BBB-4496-A01E-6B9F1B07CB83">
+          <dmn:text>"48 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_DECFC560-C746-491F-A564-8AA8B60233C5">
+        <dmn:inputEntry id="_754E3744-23AA-4C44-AACC-360A8A1B3644">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F92FFCFA-EEA4-4215-A089-42D78FB8E526">
+          <dmn:text>[8..9)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_15457496-6C95-467F-8088-F06E29250717">
+          <dmn:text>"51 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_23ADC89C-0292-4276-BD32-829563C6BD27">
+        <dmn:inputEntry id="_6A22EB68-1A17-4E47-ACA8-14E51C6A42DF">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9C0F64F0-7414-4ACE-B588-DAD3CCA7713E">
+          <dmn:text>[9..10)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_742FD420-086A-4D5C-815E-9126DD32426F">
+          <dmn:text>"55 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_A134D956-1921-4325-A86A-7EF74930C065">
+        <dmn:inputEntry id="_AFEFB733-52E6-4F99-94A9-890B445C213A">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3B279E1B-C859-4418-BFD7-D2889560036B">
+          <dmn:text>[10..11)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_507C0150-140E-4A25-BFE4-2CDB030E1EF7">
+          <dmn:text>"59 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2745C73E-79DD-4D79-AFBD-1A84CE1C4802">
+        <dmn:inputEntry id="_CFF185CC-FB2B-416F-9F90-92AC338AC92F">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_88EAC871-46D0-42FF-970F-1BB858707BE7">
+          <dmn:text>[11..12)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_D0CE6619-1082-491B-8A29-C8901B5B727B">
+          <dmn:text>"64 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_DDD46B05-FE01-4C08-A798-DD103B4F9223">
+        <dmn:inputEntry id="_7A3EA320-6FB2-46FB-AA23-7AB19B72737E">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F4340707-B765-4D57-ADB7-1BBAC10868B9">
+          <dmn:text>[12..13)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_245C6025-89F6-4710-9CB2-E2DAAB585778">
+          <dmn:text>"68 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_E35A5787-9664-4854-8DBA-93D25D9CD31F">
+        <dmn:inputEntry id="_AFD9CE33-6E3E-4C19-B610-4C7FD42E497F">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F233D363-1F45-4BEC-8D4F-ADE0523B19F0">
+          <dmn:text>[13..14)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_D6345A48-EA9D-4D75-8238-D6D05DF6FE10">
+          <dmn:text>"73 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_82B75E59-4015-4728-8AE5-0548B76E0124">
+        <dmn:inputEntry id="_99A07E83-DD42-497D-8B43-EB9BB90AC4F0">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_FAF1AE7F-E340-4B85-9D21-AFCEE13666C6">
+          <dmn:text>[14..15)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_C97E552D-D7C1-4327-833A-F148610C900D">
+          <dmn:text>"79 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_3996F5F0-4ED1-4328-A9B9-2984A071FBFC">
+        <dmn:inputEntry id="_CE94AF3B-4FE3-4E84-8DF0-3F79230DBCA5">
+          <dmn:text>"Women"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_11D146AE-5E69-4ABA-BD91-E705F1825C72">
+          <dmn:text>&gt;=15</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6C4AA675-943A-4543-BB12-62A16BFBE3BC">
+          <dmn:text>"&gt;80 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_E1809632-6D09-453A-92C1-86E5D069C4DD">
+        <dmn:inputEntry id="_7CF50868-BA9D-4103-AB5B-F71350E787DB">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_811B164F-B5A8-4F68-B8AD-2879D1512685">
+          <dmn:text>&lt;0</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_88377A16-0A16-408E-BD70-737AE3627797">
+          <dmn:text>"&lt;30 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9E2312BE-C0BA-43B2-A394-ECA4CFB7B82A">
+        <dmn:inputEntry id="_64FD9952-EF3F-4A89-B9A0-145714042B6E">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_E291A732-95D2-40E6-9B7F-09D90447F529">
+          <dmn:text>[0..1)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_FEEBC4CD-2AAC-4965-A2AD-4F5B267D75AB">
+          <dmn:text>"30 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_42F18EE4-861A-4B49-B1C2-560175DD595B">
+        <dmn:inputEntry id="_39A8344E-E35E-447C-B50F-115C695FA9A3">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_862F3F60-A26D-42EE-B123-2D98E5B8E7E6">
+          <dmn:text>[1..2)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_556FABF8-E038-4074-9974-D23715A0A54F">
+          <dmn:text>"32 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_E8A35058-5BD9-4306-A320-15E04BE5D06F">
+        <dmn:inputEntry id="_D3F2669D-41BF-4FDC-AB2E-9C7E351DCBF9">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F12D8D6C-8CD9-4817-986A-7B893A0672D5">
+          <dmn:text>[4..5)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_51003FE6-BDAD-4A2D-B672-95262D158770">
+          <dmn:text>"38 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_D379C2C2-740B-455B-9FBF-A6ADF004AD9C">
+        <dmn:inputEntry id="_99299CF1-5404-4255-876B-A327D6C40E67">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9537F265-72F3-4250-A64C-8ADA386D8EE4">
+          <dmn:text>[5..6)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_271FF438-A45E-439F-9231-63D22249305C">
+          <dmn:text>"40 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_2699DA52-5474-4951-B8CC-3E2D989BFA6F">
+        <dmn:inputEntry id="_442FE02E-1E0F-4E08-813F-BF4B837C66F5">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_DA1CBD55-D7F1-4C0C-A746-77028A94CCBC">
+          <dmn:text>[6..7)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_70165745-F8ED-4C71-9A1E-4BCF13D16400">
+          <dmn:text>"42 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_9D3BE7C0-4C80-4228-9488-68B039E8CB13">
+        <dmn:inputEntry id="_E89E0D93-47AA-4E12-B43B-E15123C9B8AA">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4FF9C1A7-D82D-4384-AFC9-B4E306AB85CD">
+          <dmn:text>[7..8)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6D2FE790-D850-4559-8E2B-568D6BCB8BB5">
+          <dmn:text>"45 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_EE617AD2-7DAC-406C-B482-0A9527B4A5C6">
+        <dmn:inputEntry id="_384D8D7F-5963-4947-9391-DE56E29FA633">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5DF629C3-2D55-4FDA-BA91-61AA5848FFFB">
+          <dmn:text>[8..9)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8F358C64-A861-4D5C-9CD8-4A6386C66B76">
+          <dmn:text>"48 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_6155E32C-8000-46FB-8AE6-108A93B7B4FA">
+        <dmn:inputEntry id="_B7B104D5-2ABB-4BF7-82B3-840E0690AF08">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_BDDB7A0B-6394-41A9-823F-2DCB85410BA4">
+          <dmn:text>[9..10)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0FF8A95E-523D-4814-9583-7613A2F87B38">
+          <dmn:text>"51 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_735D2276-B576-4BE7-BC78-F4A108C27E57">
+        <dmn:inputEntry id="_AA511BE7-423B-46EC-9F2D-8D452FD236E7">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_E786D20E-7BD0-4F0C-9CFB-3DE09F012F56">
+          <dmn:text>[10..11)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_9880CB9A-6B37-4447-B1F7-EE2D90877678">
+          <dmn:text>"54 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_8669BE5A-0C26-43C6-B730-54F2648A46E2">
+        <dmn:inputEntry id="_0B296A11-F3E0-43BA-8C16-D131724067CC">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_BC586DF1-026B-47FA-A84D-759B809705CD">
+          <dmn:text>[11..12)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8B2DB31B-E862-4ED4-99B9-FD039C2C7062">
+          <dmn:text>"57 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_786C2B86-FEB5-4081-84A5-9317F99B3F04">
+        <dmn:inputEntry id="_85655F0F-16B6-40A8-B297-6ABA8C3F7130">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_10C3CF0E-AB99-41C7-A4E5-F1D0A80290BE">
+          <dmn:text>[12..13)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2F409110-614D-4D63-AE0F-9EF46A4D15F4">
+          <dmn:text>"60 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1E6BE80B-5241-4DD0-B00E-C4BE7858E587">
+        <dmn:inputEntry id="_7A8B0E08-3AAB-4974-B807-5B130E277FE9">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_50EE3B15-8D24-4F67-80C7-E717B86902B2">
+          <dmn:text>[13..14)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2EAA6958-2060-4C85-B5DB-5D0A03963AE7">
+          <dmn:text>"64 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_FA7C2885-27AF-427C-A60C-30FFF9FB6FC8">
+        <dmn:inputEntry id="_9101AB77-7702-49D9-BB0B-100D4B014230">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2E18BBDE-D0FC-40CC-A210-681417AF5BC9">
+          <dmn:text>[14..15)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_75EE213B-A224-4C29-8A5D-73B4ACD0F5CD">
+          <dmn:text>"68 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_F0412DF1-AAF5-4DA3-BB39-EF8FA8051AFB">
+        <dmn:inputEntry id="_7F1E2A7F-605C-4F37-A4F0-03EB31585EFF">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F10D710F-8EC0-4B18-A064-4325892A750D">
+          <dmn:text>[15..16)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_33909D6A-FDE6-466C-BBD2-AFC6779A6617">
+          <dmn:text>"72 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_BAAE65FB-E40C-434C-AA50-6B5699B49715">
+        <dmn:inputEntry id="_605484AB-E818-4D08-9D89-898BD3E026F2">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8D15ADD8-9B14-4D90-BF71-B9DB11C4D201">
+          <dmn:text>[16..17)</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_F7DD9455-7E8D-4ACD-AA4A-412BA17B7A3F">
+          <dmn:text>"76 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_6995C742-A641-498C-BDAA-49F061B365AB">
+        <dmn:inputEntry id="_2FED4130-0D1C-427F-AD52-D01F42056E7B">
+          <dmn:text>"Men"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5E289A96-97A0-46F8-B05C-8205F675C6D4">
+          <dmn:text>&gt;=17</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_65663CE3-3F3A-4633-AA1C-CBE9776048A0">
+          <dmn:text>"&gt;80 y/o"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_B5009C8A-68EE-45C4-9DCE-53E23072CD90" name="DRG">
       <di:extension>
@@ -1739,6 +2225,13 @@
             <kie:width>100</kie:width>
             <kie:width>152</kie:width>
             <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_16865D58-AD3D-46C0-8FF1-34F3DC32C43D">
+            <kie:width>50</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>190</kie:width>
+            <kie:width>168</kie:width>
             <kie:width>100</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
@@ -1884,7 +2377,16 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="844" y="167" width="100" height="50"/>
+        <dc:Bounds x="843" y="50" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_8DCAE40C-3502-4F15-8A9E-FFEB3BF23DAC" dmnElementRef="_8DCAE40C-3502-4F15-8A9E-FFEB3BF23DAC" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="744" y="167" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_114EBCD8-8850-4DB5-9F41-8FEB7844AEE8" dmnElementRef="_114EBCD8-8850-4DB5-9F41-8FEB7844AEE8">
@@ -1961,11 +2463,19 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_83A8A124-3D2A-422C-9EC3-4C24F4F60AEB" dmnElementRef="_83A8A124-3D2A-422C-9EC3-4C24F4F60AEB">
         <di:waypoint x="677" y="192"/>
-        <di:waypoint x="844" y="192"/>
+        <di:waypoint x="843" y="75"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_C376AF1B-F5E9-419F-9297-6AC6203CCBA8" dmnElementRef="_C376AF1B-F5E9-419F-9297-6AC6203CCBA8">
         <di:waypoint x="893" y="292.68421052631584"/>
-        <di:waypoint x="894" y="192"/>
+        <di:waypoint x="893" y="75"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_358DC5E0-CDF9-4C5A-B1B0-4751E12946E2" dmnElementRef="_358DC5E0-CDF9-4C5A-B1B0-4751E12946E2">
+        <di:waypoint x="627" y="192"/>
+        <di:waypoint x="794" y="192"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_853B9E96-DFD0-4013-872F-A63862F4DA88" dmnElementRef="_853B9E96-DFD0-4013-872F-A63862F4DA88">
+        <di:waypoint x="893" y="292.68421052631584"/>
+        <di:waypoint x="794" y="192"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>

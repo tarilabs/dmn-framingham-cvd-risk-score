@@ -1,0 +1,10 @@
+{
+    "Age": 61,
+    "Sex": "Women",
+    "Smoker?": true,
+    "Systolic blood pressure": 124,
+    "On SBP treatment?": false,
+    "Total Cholesterol": 180,
+    "HDL Cholesterol": 47,
+    "Diabetic?": false
+}

@@ -1,0 +1,10 @@
+{
+    "Age": 53,
+    "Sex": "Men",
+    "Smoker?": false,
+    "Systolic blood pressure": 125,
+    "On SBP treatment?": true,
+    "Total Cholesterol": 161,
+    "HDL Cholesterol": 55,
+    "Diabetic?": true
+}
